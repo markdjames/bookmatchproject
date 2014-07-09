@@ -46,4 +46,21 @@ class Lookup extends AbstractOperation
 
         return $this;
     }
+	
+	/**
+     * Sets the response group
+	 *   Accessories | BrowseNodes | EditorialReview | Images | ItemAttributes | ItemIds | Large | Medium | OfferFull | Offers | 
+	 *   PromotionSummary | OfferSummary| RelatedItems | Reviews | SalesRank | Similarities | Small | Tracks | VariationImages | 
+	 *   Variations (US only) | VariationSummary
+     *
+     * @param string $itemId
+     *
+     * @return \ApaiIO\Operations\Lookup
+     
+    public function setResponseGroup($group)
+    {
+        $this->parameter['ResponseGroup'] = $group;
+
+        return $this;
+    }*/
 }

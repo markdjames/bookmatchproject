@@ -1,0 +1,40 @@
+body {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+#list {
+	width:40%;
+	float:right;
+	padding:5%;
+}
+#list div {
+	clear:both;
+	margin-bottom:10px;
+}
+#list div img {
+	float:left;
+	margin-right:10px;
+}
+#search {
+	width:100%;
+	height:30px;
+	font-size:25px;
+}
+#search_container, #related {
+	width:40%;
+	padding:5%;
+	float:left;
+}
+#related {
+	clear:left;
+}
+.book {
+	display:inline;
+}
+#related .book {
+	display:block;
+}
+#related .book img {
+	float:left;
+	margin-right:10px;
+}x

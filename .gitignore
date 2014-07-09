@@ -9,3 +9,11 @@ composer.phar
 *.swp
 vendor
 *.orig
+test
+ioncube
+_notes
+
+*.sql
+*.tgz
+
+amazon.php
